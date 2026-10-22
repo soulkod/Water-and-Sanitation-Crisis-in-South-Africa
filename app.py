@@ -12,9 +12,6 @@ pipeline = load_pipeline()
 st.title("SA Municipal Water & Sanitation Prioritization Tool")
 st.write("### Decision-Support System for Proactive Municipal Infrastructure Audits")
 
-# Responsible-use notice (Question 7.3)
-st.warning("⚠️ **Ethics & Responsible Use Notice:** This tool identifies household infrastructural vulnerability based on Statistics South Africa survey data[cite: 15]. It must be used strictly as a proactive resource allocator for municipal audits and can **never** be used to automate service denials or infringe on basic constitutional rights[cite: 15].")
-
 # User Input Form (Question 7.1 & 7.2)
 with st.form("prediction_form"):
     st.subheader("Enter Household Parameters")
